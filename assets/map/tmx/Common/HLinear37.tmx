@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="57" height="20" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="57" height="20" >
+  <data encoding="base64" compression="zlib">  
+   eNrtWEEOwCAIA/n/n3fZEg+ysarMmTbpEUoNqUYVEa3Ygi7MyLwEQRCZuLKnVESyK5plPfnosdzQ0zBAR8+6L++Mp3PyPL4BWpexp/RIjzt4HJl/s96jSA80V6VzJpO5GbvCztmmWvRIj1Fkva9G987S/cu/xwGouQF8
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="57" height="20"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNrtlbEOwCAIRJ2qw/3/93ZxaWMpNCiV3EtuQ/A5YClX2iB/5hjkTu3xAj2aGrzUQ9lPogY5roSOdNzJ0XJvyw6A8dyXGZpeWaEjHemYx9Fz/62a5/k/IuANtH6zHRHoT0c67uToyUwXqV8Tko0nxxM+Vwed
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="Water" type="Water" x="216" y="144" width="120" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Water" type="Water" x="528" y="144" width="144" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="Water" type="Water" x="816" y="144" width="120" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="Water" type="Water" x="288" y="288" width="120" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="Water" type="Water" x="960" y="288" width="120" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="Water" type="Water" x="456" y="432" width="168" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="Water" type="Water" x="1008" y="432" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

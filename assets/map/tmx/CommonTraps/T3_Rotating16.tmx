@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="31" height="19" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="31" height="19" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYBzFIwaTCyg1hxK7KQUj1e6BBoxEyJOblhhH7caphgkN09JumB2MA+jvUbtH7UaXo0U9CZMDAOaYANg=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="31" height="19"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYBgFIwmw48E8eDA64CERk2I3ufYQ429SADn2UMtuhgG0l1p2MwxBu6mRvwbabjY8mFLAgQMzjNo9avcgsJtaAJ+9AFDFBW8=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="RetractableSpikes" type="RetractableSpikes" x="192" y="192" width="48" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="RetractableSpikes" type="RetractableSpikes" x="528" y="192" width="48" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="RotatingBall" type="RotatingBall" x="216" y="264" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="2"/>
+   </properties>
+  </object>
+  <object id="4" name="RotatingBall" type="RotatingBall" x="528" y="264" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="3"/>
+   </properties>
+  </object>
+  <object id="5" name="UnstablePF" type="UnstablePF" x="240" y="312" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="UnstablePF" type="UnstablePF" x="336" y="312" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="UnstablePF" type="UnstablePF" x="504" y="312" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="8" name="Water" type="Water" x="240" y="408" width="288" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="9" name="RetractableSpikes" type="RetractableSpikes" x="240" y="408" width="288" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

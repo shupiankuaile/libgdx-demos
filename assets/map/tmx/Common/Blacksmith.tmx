@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="22" height="22" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="22" height="22" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYBzFoxgHpgTQwkx8Zo+aS31zR8HQBEM5/Y5kDAApWADx
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="22" height="22"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYBgFo2AUjALsgB0JU9u8UXNpZ+4oGJoAANDPALA=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="SpecialEquipment" type="SpecialEquipment" x="120" y="144" width="312" height="312">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Npc" type="Npc" x="216" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="smallBlacksmith"/>
+   </properties>
+  </object>
+  <object id="3" name="Npc" type="Npc" x="360" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="blacksmith"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

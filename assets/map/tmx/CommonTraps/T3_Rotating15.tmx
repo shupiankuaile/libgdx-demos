@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="27" height="19" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="27" height="19" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYKQCxgaoYQa5gF72DAW7yHXXYLeL3HRGizQ51OwaiLClhl3EmkGuXdQCTEiYXmUDw6hdNE0bjBToG6g6lRgMAO6ZAPs=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="27" height="19"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYKAOYMOC6QnY0fCoXaN2jYJRQE66HLVr1C5cgA0PpoddtAAA4KQBFg==
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="AutoRetractableSpikes" type="AutoRetractableSpikes" x="312" y="72" width="120" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1.5-0.5"/>
+   </properties>
+  </object>
+  <object id="2" name="AutoRetractableSpikes" type="AutoRetractableSpikes" x="480" y="168" width="24" height="120">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1-0.5"/>
+   </properties>
+  </object>
+  <object id="3" name="RotatingBall" type="RotatingBall" x="96" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1"/>
+   </properties>
+  </object>
+  <object id="4" name="RotatingBall" type="RotatingBall" x="288" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="3"/>
+   </properties>
+  </object>
+  <object id="5" name="RotatingBall" type="RotatingBall" x="504" y="336" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="3"/>
+   </properties>
+  </object>
+  <object id="6" name="RetractableSpikes" type="RetractableSpikes" x="192" y="384" width="72" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="RetractableSpikes" type="RetractableSpikes" x="312" y="384" width="192" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

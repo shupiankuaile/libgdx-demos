@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="25" height="20" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYGTADhipjKkN6GEHA53sYBgAO5hohNH9wUyHsBq1g7R8Qi4mJs5pUU4wE1BHbB4lxQ5S9aOrI9cOSsGoHeTbgS9t09If1Mo7AK7dAPQ=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="25" height="20"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYIAANix4FIyCUTAKRsEoGAXUA7SsawH6KAA9
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="Examinable" type="Examinable" x="336" y="408" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="pile"/>
+   </properties>
+  </object>
+  <object id="2" name="Npc" type="Npc" x="264" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="perk"/>
+   </properties>
+  </object>
+  <object id="4" name="TriggeredDoor" type="TriggeredDoor" x="408" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="closed"/>
+   </properties>
+  </object>
+  <object id="5" name="BgWall" type="BgWall" x="0" y="0" width="600" height="480">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="Pulley" type="Pulley" x="480" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

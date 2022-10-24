@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="26" height="21" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="26" height="21" >
+  <data encoding="base64" compression="zlib">  
+   eNrNlEEKACAIBDXp/1/u0imkXDVRmKuDushExCBacQJnv5vH647Wq2+VZ26q5kEYCq+9RPMixv0j+bt50L2i1c0TzZo479DRE/1rVn/GXyaD/4enap6sX+JxcjJVno4sBvcBPA==
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="26" height="21"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYCAdsGHBtAD0smcU0A+wDyN72EftGfFpYBSMglFAOQAARCEAgw==
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="FakeBlackWall" type="FakeBlackWall" x="144" y="96" width="48" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="RotatingBall" type="RotatingBall" x="264" y="312" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1"/>
+   </properties>
+  </object>
+  <object id="3" name="RotatingBall" type="RotatingBall" x="408" y="336" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="2"/>
+   </properties>
+  </object>
+  <object id="4" name="Spikes" type="Spikes" x="360" y="432" width="144" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

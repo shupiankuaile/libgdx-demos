@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="33" height="9" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="33" height="9" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZMAOGGmAcdkzCkbBYAOkpGFKzCfV/sHiBnqWDwCGSABG
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="33" height="9"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYGBg4MCCaQHYsGAQYCdCLw+JGJteXICdSDeQ4hZSAaluoAUYdQPx6ZFagIOO+W8wu4EBjxsATJ4CKQ==
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="Spikes" type="Spikes" x="216" y="168" width="72" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Spikes" type="Spikes" x="360" y="168" width="72" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="Spikes" type="Spikes" x="504" y="168" width="72" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

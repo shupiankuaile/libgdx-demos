@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="27" height="37" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="27" height="37" >
+  <data encoding="base64" compression="zlib">  
+   eNrtlksOwCAIRPnc/87dtBuDgAq0NU7CTvsEBlIEADRCEk5EtipZf1BlLVZZkl/ojgzW6LuoCc3n7ZmKGu7OIiMids3MXXSe6b03g/WIC/L6AkuqreYNzyx784rcr4cVz5J6/UjzjGfPS55h59u8c8DKjjqsPVlk+DYjL57Ma+b//01Wb7a1OoPS/5G8IsVQp8Oy+4oL0fveBbahAaI=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="27" height="37"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNrt18EKgCAQhOE9JUK+/+tK0CFkRXF3J4X5Ya59JV4SGXcpWykriyraSp/RslvRWa272YwlAMvaH9ZK5V3v3T2tmXOKPC9a9juCutMeZ0BrX4sxdEUZwkR+385WAlmZ1nHWk9f/sAyeVwGtKgX4
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="Water" type="Water" x="24" y="672" width="240" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

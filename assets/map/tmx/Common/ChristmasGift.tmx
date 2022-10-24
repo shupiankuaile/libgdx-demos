@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="30" height="45" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="30" height="45" >
+  <data encoding="base64" compression="zlib">  
+   eNrtlNkNACAIxdD9h3YBEsEDxJSkf2o1PmiiVwsAr3/9yn09+y1l9XaFVafV7TlHLq5/zUvt/9spZv0QMX/w4q2S56y+xZszH7PmZNT7yBV5Js/kqnqeAQB+ZABxHQPB
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="30" height="45"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNrt0TEKACAMBMGr4///6wfESiPIDFybLZIkY7EOurqn1eXbu/3ULd2W3wIAAADvTDJCAvk=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="CustomEntity" type="CustomEntity" x="384" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="gift"/>
+   </properties>
+  </object>
+  <object id="2" name="RandomLoot" type="RandomLoot" x="336" y="504" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="KeyLockedDoor" type="KeyLockedDoor" x="384" y="504" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="ChristmasKey"/>
+   </properties>
+  </object>
+  <object id="4" name="KeyLockedDoor" type="KeyLockedDoor" x="576" y="504" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="ChristmasKey"/>
+   </properties>
+  </object>
+  <object id="5" name="RandomLoot" type="RandomLoot" x="624" y="504" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="RandomLoot" type="RandomLoot" x="336" y="648" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="KeyLockedDoor" type="KeyLockedDoor" x="384" y="648" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="ChristmasKey"/>
+   </properties>
+  </object>
+  <object id="8" name="KeyLockedDoor" type="KeyLockedDoor" x="576" y="648" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="ChristmasKey"/>
+   </properties>
+  </object>
+  <object id="9" name="RandomLoot" type="RandomLoot" x="624" y="648" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="10" name="RandomLoot" type="RandomLoot" x="336" y="792" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="11" name="KeyLockedDoor" type="KeyLockedDoor" x="384" y="792" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="ChristmasKey"/>
+   </properties>
+  </object>
+  <object id="12" name="KeyLockedDoor" type="KeyLockedDoor" x="576" y="792" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="ChristmasKey"/>
+   </properties>
+  </object>
+  <object id="13" name="CellShrine" type="CellShrine" x="624" y="792" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

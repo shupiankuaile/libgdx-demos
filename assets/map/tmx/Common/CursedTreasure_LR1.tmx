@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="34" height="18" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="34" height="18" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYBzFo3gUDwtMbzDqjlEwWMFgSQeD0R2klCHULpNGy2ncGADvJQFo
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="34" height="18"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYBgFo2AUDBfARSMzceFRdxCPR91BX3dQmnaGszvwAR40PFDuGIkAAFTMA6s=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="SpecialEquipment" type="SpecialEquipment" x="312" y="192" width="336" height="168">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Door" type="Door" x="768" y="264" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="Door" type="Door" x="120" y="336" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="Water" type="Water" x="168" y="360" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="Water" type="Water" x="648" y="360" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

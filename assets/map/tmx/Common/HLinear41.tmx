@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="30" height="23" >
+  <data encoding="base64" compression="zlib">  
+   eNrtlsEKACAIQ2fh//9ylw4RSkKmEA52Ex/mkAgATUuiC1v7aXUZKu5btemseaX522Ytl2tmLfWv3724Z7EjV9q5tyNz1ZP2+wOXHbgw5sByg6Sb2hGj4sZxb/5eEdwsDwm8AOA=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="30" height="23"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYEAADiyYEsCGBWMDuOzlwYEZ0OSJBexQjM9+Bjz2kQtG7R1Ye8kF1HbfKBgFo2B4AGqVV+TYS2l5xI6GR+2lDRgoexkG0N6BAgCtZANp
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="BreakableGround" type="BreakableGround" x="456" y="144" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
