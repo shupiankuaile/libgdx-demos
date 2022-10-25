@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="39" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="25" height="39" >
+  <data encoding="base64" compression="zlib">  
+   eNrtl9EKgDAIRXXi//9y9BD0EOrVFasU7lNjp+QkGxMR35xoIWuz9XUGL8LY14yLIIxhJOsVsgc/0Ks/MrTAYMOHaDyvjveQYL+Qb5dmvJ6hhsMeY0Yi7s6aAQL0txlrMRBHNcDIztuquzP+c2rGsgzLK49RPSdGz7KVagbuRPVO6c3eLOP8fAOwrQGE
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="25" height="39"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNrtlt0KgCAMhXeVCNv7v24ECRJzHm2KWAfOVbnP/WgRjVcEfYkzlxQU5zGsPRAQv8SLDWtaGbQZg4weo4zaLMRJjNIc5ZIXNUT78TN81MtgxXKbwburh6MxvCWVvnyVISBjdF6985Pvj0FLA8OqARvnorde0nCePRke7+7ImD3Pz15bz7zOjmd85C6hhRmyYB6lvqT/kQD0GJ0LjREVhqdWYtS+HavkkXQoRlVbewICBAjy
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="Door" type="Door" x="144" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Door" type="Door" x="384" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="Door" type="Door" x="120" y="744" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

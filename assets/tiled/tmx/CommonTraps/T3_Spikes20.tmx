@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="90" height="19" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="90" height="19" >
+  <data encoding="base64" compression="zlib">  
+   eNrt2EEOwCAIRFEw8f5X7gWIRYsKzZ9k9s3D0lQVO0rDizPO1S1xPn9mrXS6VBlYN6Oczfj98bY3PMH2m/NKcPY774j3HcH5fqo4W9+6Vsy6whyidjDzwDnDTHA+Y49zTGb+C7PdA0ii5/v7nQvGONP8fQDinQX1
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="90" height="19"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNrt0EENAAAIxLD7gX/FGEAAIW0yA0uSXgKA78oCn33GZ58BAAA4ZQCVHgBM
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="SecretBlackWall" type="SecretBlackWall" x="144" y="96" width="1824" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="AutoRetractableSpikes" type="AutoRetractableSpikes" x="2112" y="240" width="24" height="120">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="0.3-0.3"/>
+   </properties>
+  </object>
+  <object id="3" name="RetractableSpikes" type="RetractableSpikes" x="24" y="336" width="696" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="RetractableSpikes" type="RetractableSpikes" x="936" y="336" width="1128" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="Spikes" type="Spikes" x="720" y="360" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="Spikes" type="Spikes" x="912" y="360" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="Spikes" type="Spikes" x="744" y="408" width="168" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

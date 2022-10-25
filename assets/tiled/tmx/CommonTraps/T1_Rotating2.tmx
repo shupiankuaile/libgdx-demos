@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="23" height="15" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="23" height="15" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZMAOGEnA+PSTC4aq2cTYy4SEKQHI5tDKzeT4bzC4ZagDUvIaJXl3OJg92DEA+ngAgQ==
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="23" height="15"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYGBg4MCCSQFsWDAM0MtscgAtzcZmB63NZmegDWAfNZvuZo+C4QMAx+cBXQ==
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="RotatingBall" type="RotatingBall" x="240" y="144" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Spikes" type="Spikes" x="144" y="288" width="216" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="25" height="19" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYGTADhipjAmBkWwHPr1MWDC13EuKGlraQSmghx1D0c2E4o0JT/piokLaYyTgNmr5h5p2kOOmUTvIT4fUchOl5RMt6zmQOAB8iQDN
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="25" height="19"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYIAADiyY2oCDAB7JdrBDMbH2kWM2NkwtgM8OXigetQN7XNMyPsj1LwMN3EKpHex0soNUPGoHZWYTKkvpYQc1AS47AJZzBSM=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="Spikes" type="Spikes" x="48" y="24" width="24" height="72">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Spikes" type="Spikes" x="72" y="192" width="48" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="RotatingBall" type="RotatingBall" x="288" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="2"/>
+   </properties>
+  </object>
+  <object id="4" name="RotatingBall" type="RotatingBall" x="480" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1"/>
+   </properties>
+  </object>
+  <object id="5" name="RotatingBall" type="RotatingBall" x="96" y="264" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="3"/>
+   </properties>
+  </object>
+  <object id="6" name="Spikes" type="Spikes" x="312" y="264" width="24" height="120">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

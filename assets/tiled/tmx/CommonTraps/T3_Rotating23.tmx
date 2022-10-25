@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="30" height="23" >
+  <data encoding="base64" compression="zlib">  
+   eNrtlcEOwCAIQ2Fs///Lu3ggi6QiTjzQpDehap7IRMTNPXHAo/2sdQR63I5+o4rWV66tSznrvBZL373xxFvI2nvl5jGCGPDOTMShNfdmJEn3XLmYD82BtR6xIgvfluYO1a3M9dQJ/a+Tcnf8RU9zZKbt8AtPkADu
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="30" height="23"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYEAADiyYEsCGBWMDuOzlwYHJBexQjM9+BiraN2rv4LAXGVDbzlEwCqgJ2IlMx7Syc9Re+tnLPoD20sMdg9leWtg/UPaS4pbhCgAcXgQb
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="Shooter" type="Shooter" x="408" y="24" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="down_1.5"/>
+   </properties>
+  </object>
+  <object id="2" name="RotatingBall" type="RotatingBall" x="192" y="120" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="RetractableSpikes" type="RetractableSpikes" x="576" y="120" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="BreakableGround" type="BreakableGround" x="456" y="144" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="RetractableSpikes" type="RetractableSpikes" x="96" y="240" width="144" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="RetractableSpikes" type="RetractableSpikes" x="336" y="240" width="192" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="RotatingBall" type="RotatingBall" x="336" y="264" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="8" name="Shooter" type="Shooter" x="120" y="288" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="down_1.5"/>
+   </properties>
+  </object>
+  <object id="9" name="Shooter" type="Shooter" x="312" y="408" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="down_1.5"/>
+   </properties>
+  </object>
+  <object id="10" name="RotatingBall" type="RotatingBall" x="432" y="408" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="11" name="RotatingBall" type="RotatingBall" x="96" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="12" name="AutoRetractableSpikes" type="AutoRetractableSpikes" x="144" y="504" width="96" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1.5-0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

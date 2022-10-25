@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="13" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="25" height="13" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZMAOGMnA+MwhZAexbiDVDkKAkUj9MDVMSJhWdlDTH0xomBI7qAUY6eCOgbSDmnYPRjtILQPwmcWKhEkpf6hVZmHDACRrAIM=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="25" height="13"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYGBg4MCCyQFsWDAM0NsOapk9EHZQCuhhBz7ADsWjdowcOwilPVyABwlTqxygFAAA4zsB5w==
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="RotatingBall" type="RotatingBall" x="384" y="96" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="3"/>
+   </properties>
+  </object>
+  <object id="2" name="RotatingBall" type="RotatingBall" x="192" y="168" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

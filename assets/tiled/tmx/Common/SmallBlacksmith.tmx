@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="17" height="22" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="17" height="22" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYBzFwxqTC6hlxiigPhgscTuKBycGAMO+AOo=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="17" height="22"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYBgFo4C2gB2KKdU/agbCjFEwCvABAC9nAGo=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="DisableDecorator" type="DisableDecorator" x="72" y="264" width="216" height="120">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Examinable" type="Examinable" x="288" y="336" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="tool"/>
+   </properties>
+  </object>
+  <object id="3" name="Examinable" type="Examinable" x="336" y="360" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="pile"/>
+   </properties>
+  </object>
+  <object id="4" name="Npc" type="Npc" x="168" y="360" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="smallBlacksmith"/>
+   </properties>
+  </object>
+  <object id="5" name="Examinable" type="Examinable" x="48" y="360" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="junk"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

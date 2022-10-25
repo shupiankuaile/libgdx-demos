@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="10" height="12" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYCQCDxdAjN+I9fNAqyMGAwAd7AAj
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="10" height="12"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYCAOsBOpZrCrG2kAAF9kAEc=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="DisableDecorator" type="DisableDecorator" x="0" y="144" width="240" height="144">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="FixedLoot" type="FixedLoot" x="48" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="Map"/>
+   </properties>
+  </object>
+  <object id="3" name="MoneyDoor" type="MoneyDoor" x="96" y="240" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="Map"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="7" height="11" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="7" height="11" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYMSDsQFK5ZiwYFx6Bgrg8wMAF6wAHA==
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="7" height="11"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYBg8gAuPOL3lQIAbCwYBACu0AJw=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="SecretBlackWall" type="SecretBlackWall" x="24" y="24" width="120" height="96">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="NoMinimap" type="NoMinimap" x="24" y="24" width="120" height="96">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="SecretArea" type="SecretArea" x="24" y="48" width="120" height="48">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="FixedLoot" type="FixedLoot" x="72" y="72" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="item" value="ChristmasSkinKey"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

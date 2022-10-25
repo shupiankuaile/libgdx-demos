@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="31" height="21" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="31" height="21" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYKQxxgYY6YSJtZtUQC27yQWk2MsExQNhN7IeagFS/UBuGqSWW+llNyXmDGW7SQnfoWA3JemC0vQ0ajcmZkLDpORjWtRfo3aP2j0QbSUASeoBXQ==
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="31" height="21"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYKA9YMOC6QVGot1sg9Ru9gEM8+FuNy4wEu0eDe9Ru6kJOPBghlG7R+0exnYjAwAYeQKd
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="TriggeredDoor" type="TriggeredDoor" x="120" y="120" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="SinglePressurePlate" type="SinglePressurePlate" x="168" y="120" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="RotatingBall" type="RotatingBall" x="456" y="120" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="RotatingBall" type="RotatingBall" x="264" y="168" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="Spikes" type="Spikes" x="120" y="192" width="120" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="RotatingBall" type="RotatingBall" x="288" y="384" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

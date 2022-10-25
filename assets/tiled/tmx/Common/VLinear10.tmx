@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="24" height="48" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="24" height="48" >
+  <data encoding="base64" compression="zlib">  
+   eNrtmOEKwCAIhDXf/53HoP6ZaTaKdgf3Z8Q3C7vJmIi4WhMn/aXA389/XapZedasqQyMHjqDXxzO1i/JHmSjHzN8z7vBn+dreeHtuWj9otwZWXg+f+V7swHn7+dbubay/3traDN/dq7M1E+BPYJ/Dj86l/TuUWT+lGCto3wA/16+leOenLfWQndr5jsY+T/zAHaQAeA=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="24" height="48"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNrtmLEKwCAMBTNVBPP/v9uxGR4aNNbQvoMDp0NUMijycAFXqcYImpH9831x9FtHT38Xhf1P90l+FDiaGbPzQc2affYz9xF/Oh/tuGv/HtjP14+6+zfeDyGRFOAsFcj+2f6I1T+bG9MECsc=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+ </objectgroup>
+</map>

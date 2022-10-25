@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="34" height="18" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="1" name="col" width="34" height="18" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZMAOGGmE8dk16g5Uu5iwYFq5A5dd+AAtw4BUMBjcQGxaYqCx3eS4g2GIu4MecUpuOhss7hjFo3gUD24MADSpAaw=
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="34" height="18"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYGBg4MCCaQXYsGAYGHXH4HMHO8PAA/ZRd4y6g4A7RsEoGAWjYKgDAA0JAV8=
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="RotatingBall" type="RotatingBall" x="336" y="120" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="1"/>
+   </properties>
+  </object>
+  <object id="2" name="RotatingBall" type="RotatingBall" x="552" y="120" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="3"/>
+   </properties>
+  </object>
+  <object id="3" name="Spikes" type="Spikes" x="240" y="216" width="48" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="Spikes" type="Spikes" x="432" y="216" width="48" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="RotatingBall" type="RotatingBall" x="144" y="312" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
