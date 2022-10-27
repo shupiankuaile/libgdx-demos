@@ -1,13 +1,13 @@
 
 package studio.wrpg.screens;
 
-import com.badlogic.cubocy.Map;
-import com.badlogic.cubocy.MapRenderer;
-import com.badlogic.cubocy.OnscreenControlRenderer;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.graphics.GL20;
+import studio.wrpg.Map;
+import studio.wrpg.MapRenderer;
+import studio.wrpg.OnscreenControlRenderer;
 
 public class GameScreen extends CubocScreen {
 	Map map;
