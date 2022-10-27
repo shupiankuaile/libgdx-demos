@@ -1,11 +1,11 @@
 
-package studio.wrpg.screens;
+package studio.wrpg.cubocy.screens;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Screen;
 
 public abstract class CubocScreen implements Screen {
-	Game game;
+	public Game game;
 
 	public CubocScreen (Game game) {
 		this.game = game;

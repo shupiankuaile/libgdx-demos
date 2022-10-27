@@ -1,5 +1,5 @@
 
-package studio.wrpg;
+package studio.wrpg.cubocy;
 
 import com.badlogic.gdx.Application.ApplicationType;
 import com.badlogic.gdx.Gdx;
@@ -23,7 +23,7 @@ public class OnscreenControlRenderer {
 	}
 
 	private void loadAssets () {
-		Texture texture = new Texture(Gdx.files.internal("data/controls.png"));
+		Texture texture = new Texture(Gdx.files.internal("cubocy_data/controls.png"));
 		TextureRegion[] buttons = TextureRegion.split(texture, 64, 64)[0];
 		left = buttons[0];
 		right = buttons[1];

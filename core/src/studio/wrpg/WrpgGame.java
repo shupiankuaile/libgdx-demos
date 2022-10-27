@@ -1,13 +1,9 @@
 package studio.wrpg;
 
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.ScreenUtils;
-import studio.wrpg.screens.MainMenu;
+import studio.wrpg.cubocy.screens.MainMenu;
 
-class WrpgGame extends Game {
+public class WrpgGame extends Game {
 
 	@Override
 	public void create () {

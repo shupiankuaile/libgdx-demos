@@ -1,5 +1,5 @@
 
-package studio.wrpg.screens;
+package studio.wrpg.cubocy.screens;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -20,7 +20,7 @@ public class IntroScreen extends CubocScreen {
 
 	@Override
 	public void show () {
-		intro = new TextureRegion(new Texture(Gdx.files.internal("data/intro.png")), 0, 0, 480, 320);
+		intro = new TextureRegion(new Texture(Gdx.files.internal("cubocy_data/intro.png")), 0, 0, 480, 320);
 		batch = new SpriteBatch();
 		batch.getProjectionMatrix().setToOrtho2D(0, 0, 480, 320);
 	}

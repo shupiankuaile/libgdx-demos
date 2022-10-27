@@ -1,5 +1,5 @@
 
-package studio.wrpg;
+package studio.wrpg.cubocy;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.FPSLogger;
@@ -78,8 +78,8 @@ public class MapRenderer {
 	}
 
 	private void createAnimations () {
-		this.tile = new TextureRegion(new Texture(Gdx.files.internal("data/tile.png")), 0, 0, 20, 20);
-		Texture bobTexture = new Texture(Gdx.files.internal("data/bob.png"));
+		this.tile = new TextureRegion(new Texture(Gdx.files.internal("cubocy_data/tile.png")), 0, 0, 20, 20);
+		Texture bobTexture = new Texture(Gdx.files.internal("cubocy_data/bob.png"));
 		TextureRegion[] split = new TextureRegion(bobTexture).split(20, 20)[0];
 		TextureRegion[] mirror = new TextureRegion(bobTexture).split(20, 20)[0];
 		for (TextureRegion region : mirror)

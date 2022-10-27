@@ -1,5 +1,5 @@
 
-package studio.wrpg;
+package studio.wrpg.cubocy;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Pixmap;
@@ -31,7 +31,7 @@ public class Map {
 	}
 
 	private void loadBinary () {
-		Pixmap pixmap = new Pixmap(Gdx.files.internal("data/levels.png"));
+		Pixmap pixmap = new Pixmap(Gdx.files.internal("cubocy_data/levels.png"));
 		tiles = new int[pixmap.getWidth()][pixmap.getHeight()];
 		for (int y = 0; y < 35; y++) {
 			for (int x = 0; x < 150; x++) {
