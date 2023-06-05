@@ -14,10 +14,13 @@
  * limitations under the License.
  ******************************************************************************/
 
-package studio.wrpg.superjumper;
+package studio.wrpg;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import studio.wrpg.superjumper.Assets;
+import studio.wrpg.superjumper.MainMenuScreen;
+import studio.wrpg.superjumper.Settings;
 
 public class SuperJumper extends Game {
 	// used by all screens

@@ -23,6 +23,7 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
+import studio.wrpg.SuperJumper;
 
 public class HighscoresScreen extends ScreenAdapter {
 	SuperJumper game;
