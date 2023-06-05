@@ -1,5 +1,7 @@
-# world-rpg
+# libgdx-demos
 
-使用libgdx
+a collection of simple demos of libgdx
+
+
 
 
